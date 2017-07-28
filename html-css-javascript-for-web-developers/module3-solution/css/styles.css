@@ -1,0 +1,44 @@
+.navbar {
+	min-height: 70px;
+}
+.navbar-toggle {
+	margin-top: 18px;
+	margin-bottom: 18px;
+} 
+.navbar-brand h1 {
+	margin-top: 0px;
+}
+#collapsable-nav {
+	background-color: #660066;
+	clear: both;
+}
+#collapsable-nav li a {
+	color: #fff;
+	border-bottom: 1px solid black;
+}
+#collapsable-nav li a:hover {
+	background-color: #66ffaa;
+}
+#collapsable-nav li:nth-child(3) a {
+	color: #fff;
+	border-bottom: 0px;
+}
+#menu {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#main-content .row section {
+	height: 1000px;
+	background-color: #aaaaaa;
+	padding: 10px;
+	position: relative;
+}
+#main-content .row section div {
+	bottom: 0px;
+	width: 100%;
+	position: absolute;
+	margin-bottom: 5px;
+}
+.row > div {
+	margin-bottom: 15px;
+}
